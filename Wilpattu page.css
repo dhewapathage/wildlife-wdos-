@@ -1,0 +1,137 @@
+.main-img {
+  width: 100%;
+  height: 450px;
+}
+.header1 {
+  font-size: 50px;
+  margin-left: 20px;
+  margin-top: 50px;
+  font-style: oblique;
+  text-align: center;
+  animation: fadeIn 3s;
+}
+#intro3 {
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 0;
+  display: flex;
+  animation: fadeIn 2s;
+  flex-direction: column;
+}
+.intro3-text {
+  width: 100%;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container img {
+  box-shadow: 4px 7px 7px 0px #00000042;
+  border-radius: 20px;
+  height: 300px;
+  width: 700px;
+  margin-right: 20px;
+  justify-self: center;
+  margin-top: 30px;
+}
+.intro3-text p {
+  font-size: 23px;
+  text-align: center;
+  margin-left: 0;
+  width: 100%;
+}
+#map {
+  margin-top: 75px;
+  gap: 40px;
+  padding: 30px;
+  background-color: rgb(111, 200, 111);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#map iframe {
+  width: 50%;
+  box-shadow: 10px 7px 7px 0px #00000042;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+#map img {
+  box-shadow: 10px 7px 7px 0px #00000042;
+  border-radius: 10px;
+  width: 50%;
+}
+.gallery1 h1 {
+  text-align: center;
+  font-size: 40px;
+  font-family: audiowide;
+}
+@media (max-width: 992px) {
+  .container {
+    flex-direction: column;
+    padding: 30px;
+  }
+  .container img {
+    width: 100%;
+    height: 100%;
+  }
+}
+.img-area {
+  background-image: url(Images/wilpattu\ background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+  gap: 20px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.img-row {
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 992px) {
+  .img-area {
+    padding: 60px 0;
+
+    gap: 60px;
+  }
+  .img-row {
+    flex-direction: column;
+    gap: 60px;
+  }
+}
+.img-row img {
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 7px 7px 7px 0px rgba(255, 255, 255, 0.5);
+}
+.single-img:hover {
+  animation: pulse 1s infinite;
+}
+/* Animation */
+@keyframes pulse {
+  0% {
+    transform: scale(0.95);
+  }
+  70% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.95);
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
