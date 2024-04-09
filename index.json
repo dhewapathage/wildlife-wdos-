@@ -1,0 +1,107 @@
+{
+  "sections": [
+    {
+      "id": "homecontent",
+      "content": {
+        "heading": "ආයුබෝවන්",
+        "subheading": "Welcome to the Sri Lankan wildlife",
+        "paragraph": "Explore the vibrant tapestry of Sri Lankan wildlife, where lush jungles and pristine habitats reveal an extraordinary array of creatures. Join us in celebrating the beauty and diversity of this tropical paradise. Let the adventure begin!"
+      }
+    },
+    {
+      "id": "intro6",
+      "content": {
+        "paragraph": "Situated in the warm lap of the Indian Ocean, Sri Lanka presents a breathtaking mix of varied ecosystems and wildlife. With iconic animals like the endangered Asian elephant and the secretive Sri Lankan leopard calling this island nation home, it is a refuge for lovers of the natural world. The sky come alive with avian delights, showcasing the island's tremendous biodiversity. There are over 430 bird species, including the colorful Sri Lankan junglefowl. As centers for biodiversity, the lush rainforests like Sinharaja provide a window into the complex web of life. Marine life thrives along the coasts under protection, enhancing the natural beauty of the country. One of Sri Lanka's greatest national parks, Udawalawe National Park, is an essential elephant sanctuary that highlights the nation's dedication to protecting its priceless wildlife. Discover the wild beauty of Sri Lanka, a tropical wonderland where every corner tells a tale of survival and cohabitation."
+      }
+    },
+    {
+      "id": "section-3",
+      "name" : "Sri Lanka's “Big Secrets”",
+      "secrets": [
+        {
+          "title": "Sri Lankan Elephant",
+          "image": "Images/result1.png",
+          "description": "Experience the awe-inspiring Gathering of Elephants, the largest seasonally recurring concentration of wild elephants, which unfolds between August and October in Minneriya (Kaudulla) National Park. Here, over 300 elephants congregate on the drying lake bed, creating a breathtaking spectacle that has earned its place among the Top Ten Wildlife Spectacles in the World, as listed by Lonely Planet. Meanwhile, Udawalawe National Park stands as the exclusive destination globally where wild elephants are guaranteed on every game drive. Renowned for its reliability in elephant sightings, Udawalawe offers a unique and unforgettable safari experience, ensuring visitors witness the majestic creatures in their natural habitat during every excursion. Together, these two parks showcase Sri Lanka's unparalleled commitment to wildlife conservation and provide unparalleled opportunities for witnessing the beauty and grandeur of wild elephants."
+        },
+        {
+          "title": "Sri Lankan Leopard",
+          "image": "Images/result2.png",
+          "description": "Yala National Park in Sri Lanka is the best place on the planet for spotting and photographing leopards in the wild. In certain parts of Yala, the average density is as high as one leopard per square kilometre."
+        },
+        {
+          "title": "Sloth Bear",
+          "image": "Images/result3.png",
+          "description": "Wilpattu and Yala National Parks are the best sites in the world for observing the slow-moving sloth bear, recognised for their distinctive yellow v-shaped markings on their chest. Incredibly, the sloth bear can be heard from 300 yards away as he sucks up insects to eat – an experience not to be missed."
+        }
+      ]
+    },
+    {
+      "id": "times",
+      "guide": [
+        {
+          "title": "Explore Sri Lanka's Wildlife Splendor: A Guide to Optimal Viewing Seasons in National Parks",
+          "locations": [
+            {
+              "name": "Yala National Park",
+              "best_time": "February to July",
+              "reason": "Dry season prevails, concentrating wildlife around water sources. Ideal for leopard sightings and birdwatching."
+            },
+            {
+              "name": "Wilpattu National Park",
+              "best_time": "February to October",
+              "reason": "Dry season offers better visibility of wildlife, including leopards, elephants, and various bird species."
+            },
+            {
+              "name": "Minneriya National Park",
+              "best_time": "July to October",
+              "reason": "During the dry season, Minneriya's tank (reservoir) shrinks, attracting large gatherings of elephants. The famous 'Elephant Gathering' occurs during this period."
+            },
+            {
+              "name": "Sinharaja Rainforest",
+              "best_time": "December to April",
+              "reason": "Dry season enhances wildlife visibility around the park's reservoir, with elephants being a major highlight."
+            },
+            {
+              "name": "Horton Plains National Park",
+              "best_time": "December to February",
+              "reason": "Cool and dry weather for trekking. Chance to spot unique wildlife like the sambar deer and purple-faced langur."
+            },
+            {
+              "name": "Kumana National Park",
+              "best_time": "April to July",
+              "reason": "Excellent for birdwatching, especially for waterbirds and migratory species."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "news",
+      "must_visit_places": [
+        {
+          "heading": "Must Visit Places"
+        },
+        {
+          "name": "Yala National Park",
+          "image": "Images/home-yala.jpg"
+        },
+        {
+          "name": "Udawalawe National Park",
+          "image": "Images/home udawalawe.webp"
+        },
+        {
+          "name": "Horton Plains",
+          "image": "Images/home hp.jpg"
+        },
+        {
+          "name": "Sinharaja Forest",
+          "image": "Images/home sinharaja.jpg"
+        },
+        {
+          "name": "Kumana National Park",
+          "image": "Images/home kumana.jpg"
+        }
+      ]
+    }
+  ]
+}

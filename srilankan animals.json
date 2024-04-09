@@ -1,0 +1,55 @@
+{
+  "sections": [
+    {
+      "id": "intro5",
+      "content": {
+        "header": "Sri Lankan Animals"
+      }
+    },
+    {
+      "id": "asd",
+      "content": {
+        "text": "Sri Lankan wildlife, captivating nature enthusiasts worldwide. The island is home to majestic elephants, with over 7,500 thriving in national parks. Graceful deer roam freely, adding to the allure of these natural havens. The elusive leopard, a symbol of the island's untamed wilderness, prowls in protected areas like Yala National Park. Coastal waters host a stunning array of marine life, with majestic whales making seasonal appearances along the southern coast. This harmonious ecosystem, supporting a diverse population of flora and fauna, underscores Sri Lanka's commitment to conservation and sustainable coexistence. Explore the wonders of Sri Lankan wildlife, where nature's symphony plays out in every corner."
+      }
+    },
+    {
+      "id": "iconic-animals",
+      "content": {
+        "header": "Distinctive Wildlife of Sri Lanka",
+        "animals": [
+          {
+            "name": "Purple-faced Langur (Semnopithecus vetulus)",
+            "image": "Images/1234.jpeg",
+            "description": "The Purple-faced Langur (Semnopithecus vetulus) is a captivating primate species exclusively found in Sri Lanka, showcasing distinctive features that set it apart in the realm of wildlife. Its most notable characteristic is the striking purple hue adorning its face, contrasting sharply with its sleek black fur coat. Typically measuring between 42 to 61 centimeters in body length and sporting a tail ranging from 60 to 75 centimeters, these medium-sized Old World monkeys captivate observers with their unique appearance. Endemic to Sri Lanka, they primarily inhabit rainforests, montane forests, and hilly regions, often occupying the upper canopy where they feed on leaves, fruits, and flowers. Social animals, Purple-faced Langurs form groups of varying sizes, employing a range of vocalizations for communication. Despite their visual allure, these langurs face threats such as habitat loss, human-wildlife conflict, and hunting. Conservation initiatives and protected areas strive to mitigate these challenges and preserve the Purple-faced Langur's significance within Sri Lanka's rich biodiversity."
+          },
+          {
+            "name": "RED SLENDER LORIS",
+            "image": "Images/RED SLENDER LORIS.jpg",
+            "description": "Native to Sri Lanka's jungles, the red slender loris (Loris tardigradus) is a tiny, nocturnal strepsirrhine monkey. This species is ranked No. 6 out of the 10 focus species and No. 22 out of the 100 EDGE mammal species that are thought to be the most globally endangered and evolutionary different worldwide. It has been determined that L. t. tardigradus and L. t. nycticeboides are the two subspecies."
+          },
+          {
+            "name": "Saltwater Crocodile (Crocodylus porosus)",
+            "image": "Images/Saltwater Crocodile (Crocodylus porosus).jpg",
+            "description": "The Saltwater Crocodile is the largest living crocodile species and can be found in estuaries, mangroves, and coastal areas in Sri Lanka. These powerful reptiles are known for their ability to inhabit both saltwater and freshwater environments and are formidable predators."
+          }
+        ]
+      }
+    },
+    {
+      "id": "link",
+      "content": {
+        "text": "Explore the diverse wonders of Sri Lanka's wildlife by delving into the enchanting realms of Yala and Wilpattu forests. Embark on an immersive journey through the dense foliage of Yala National Park, where the untamed beauty of nature unfolds with every step. Encounter iconic species such as Sri Lankan elephants, leopards, and an array of vibrant birdlife. Meanwhile, the lush expanse of Wilpattu National Park beckons with its unique landscapes and diverse ecosystems. Navigate through our dedicated pages on Yala and Wilpattu to discover the captivating flora and fauna that call these forests home. Whether you seek thrilling wildlife encounters or serene natural landscapes, these pages serve as gateways to the heart of Sri Lanka's wild treasures. Join us in celebrating the biodiversity of Yala National Park and Wilpattu National Park, where every click opens a window to the wonders of these remarkable ecosystems",
+        "links": [
+          {
+            "text": "Yala National Park",
+            "url": "yala page.html"
+          },
+          {
+            "text": "Wilpattu National Park",
+            "url": "Wilpattu page.html"
+          }
+        ]
+      }
+    }
+  ]
+}

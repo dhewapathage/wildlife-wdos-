@@ -818,3 +818,59 @@ table {
   border: 1px solid white;
   border-radius: 10px;
 }
+.newsletterlk {
+  background-color: #fdfdfd;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.newsletter-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.newsletter-container p {
+  margin-bottom: 20px;
+}
+
+.newsletter-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.newsletter-input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  width: 300px;
+  font-size: 16px;
+}
+
+.newsletter-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.newsletter-button:hover {
+  background-color: #45a049;
+}
+
+.login-container {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
