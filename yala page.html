@@ -16,50 +16,67 @@
           <li><a href="srilankan animals.html"> Sri Lankan Animals </a></li>
           <li><a href="leopard.html"> Sri Lankan Leopards  </a>
           </li>
+          <li><a href="login.html">Login</a></li>
         </ul>
         <img src="Images/hamburger-4-svgrepo-com.svg" class="menu-btn">
     </nav>
-    <img src="Images/yala123.jpg" class="main-img">
-    <h1 class="header1">
-        Welcome to Yala National Park
+    <img id="main-imgqw" src="" class="main-img">
+    <h1 id="header1zx" class="header1">
+        
     </h1>
     <section id="intro3">
         
         <div class="intro3-text">
-            <p>They are the Lords of the Jungle, and this is leopard country! While elephants roam in large numbers with wary deer scampering by their side, leopards, the most dangerous predators on the world, stroll magnificently in Yala, where their density is higher than anywhere else on Earth.</p>
-            <p>Yala National Park is a strict natural reserve consisting of a national park, which is divided into 5 blocks. The park area has a protected land area of almost 130,000 hectares of land which consists of light forests, scrubs, grasslands, tanks, and lagoons of which two blocks are open for public viewing. Yala is situated in the south - east of sri lanka and was designated a wildlife sacntuary in 1900, and then later dubbed a national park in 1938. The park was initally used as a hunting grounds when it was under british rule but ever since Yala is now one of Sri lankas must visit destinations. Home to 44 varaiaties of Mammals and 215 bird species, Yalas most famous residents are the worlds largest concentration of Leopards, elephants, sloth bears, sambars, jackals, spotted deers, peacocks and crocadiles. The best times considered to visit Yala would be between Febuary and July as the water levels are lower and this promts the wild life to emerge into the open.</p>
+            <p id="intro3-text58"></p>
+            <p id="intro3-text65"></p>
         </div>
         <div class="container">
-            <img src="Images/yala12.jpg"><br><br>
-            <img src="Images/yala-safari-jungle-jeep-drone.jpg">
+            <img id="containerhn" src=""><br><br>
+            <img id="containerlk" src="">
             
         </div>
     </section>
     <section id="map">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.674038567171!2d80.79975837475597!3d6.809445993188055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3882edb4b78ef%3A0xcebca89153777249!2sHorton%20Plains%20National%20Park!5e0!3m2!1sen!2slk!4v1705333645316!5m2!1sen!2slk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        <img src="Images/Yala map.jpg">
+        <img id="569" src="">
     </section>
     <section id="gallery">
       <div class="gallery1">
-        <h1>Images</h1>
+        <h1 id="gallery12,"></h1>
         <div class="img-area small">
           <div class="img-row">
-            <div class="single-img"><img src="Images/yala2.jpeg" /></div>
-            <div class="single-img"><img src="Images/yala3.jpg" /></div>
-            <div class="single-img"><img src="Images/yala4.jpg" /></div>
+            <div class="single-img"><img id="mg-row9" src="" /></div>
+            <div class="single-img"><img id="mg-row10" src="" /></div>
+            <div class="single-img"><img id="mg-row11" src="" /></div>
           </div>
           <div class="img-row">
-            <div class="single-img"><img src="Images/yala5.jpg" /></div>
-            <div class="single-img"><img src="Images/yala6.jpg" /></div>
-            <div class="single-img"><img src="Images/yala7.jpg" /></div>
+            <div class="single-img"><img id="mg-row12" src="" /></div>
+            <div class="single-img"><img id="mg-row13" src="" /></div>
+            <div class="single-img"><img id="mg-row14" src="" /></div>
           </div>
           <div class="img-row">
-            <div class="single-img"><img src="Images/yala8.webp" /></div>
-            <div class="single-img"><img src="Images/yala9.webp" /></div>
+            <div class="single-img"><img id="mg-row15" src="" /></div>
+            <div class="single-img"><img id="mg-row16" src="" /></div>
           </div>
         </div>
       </div>
+      <script src="yala page.js"></script>
     </section>
+    <footer class="newsletterlk">
+      <p>Subscribe to our newsletter for updates:</p>
+      <form class="newsletter-form" id="newsletterForm">
+        <input
+          class="newsletter-input"
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Your email address"
+          required
+        />
+        <button class="newsletter-button" type="submit">Subscribe</button>
+      </form>
+    </footer>
+   </div>
     <section id="footer-section">
         <footer class="footer">
            <div class="row">
@@ -108,6 +125,36 @@
 
       
 </body>
+
+
+<script>
+   document.addEventListener("DOMContentLoaded", function () {
+     const newsletterForm = document.getElementById("newsletterForm");
+ 
+     newsletterForm.addEventListener("submit", function (event) {
+       event.preventDefault(); // Prevent form submission
+ 
+       const email = document.getElementById("email").value;
+ 
+       // Save email to localStorage
+       saveEmailToLocalStorage(email);
+ 
+       // Clear input field
+       document.getElementById("email").value = "";
+ 
+       alert("Thank you for subscribing to our newsletter!");
+     });
+     function saveEmailToLocalStorage(email) {
+       let subscriptions =
+         JSON.parse(localStorage.getItem("subscriptions")) || [];
+       subscriptions.push(email);
+       localStorage.setItem(
+         "subscriptions",
+         JSON.stringify(subscriptions)
+       );
+     }
+   });
+ </script>
 
 <!-- malinda.hewage @gmail.com, W.M. | (n.d.). Yala National Park | Official Site | Yala Sri Lanka. [online] www.yalasrilanka.lk. Available at: https://www.yalasrilanka.lk/. -->
 

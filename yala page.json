@@ -1,0 +1,67 @@
+{
+  "main_content": {
+    "image": {
+      "src": "Images/yala123.jpg",
+      "class": "main-img"
+    },
+    "header": {
+      "text": "Welcome to Yala National Park",
+      "class": "header1"
+    },
+    "sections": [
+      {
+        "id": "intro3",
+        "content": {
+          "intro_text": "They are the Lords of the Jungle, and this is leopard country! While elephants roam in large numbers with wary deer scampering by their side, leopards, the most dangerous predators on the world, stroll magnificently in Yala, where their density is higher than anywhere else on Earth."
+        },
+        "content3": {
+          "intro_text": "Yala National Park is a strict natural reserve consisting of a national park, which is divided into 5 blocks. The park area has a protected land area of almost 130,000 hectares of land which consists of light forests, scrubs, grasslands, tanks, and lagoons of which two blocks are open for public viewing. Yala is situated in the south - east of sri lanka and was designated a wildlife sacntuary in 1900, and then later dubbed a national park in 1938. The park was initally used as a hunting grounds when it was under british rule but ever since Yala is now one of Sri lankas must visit destinations. Home to 44 varaiaties of Mammals and 215 bird species, Yalas most famous residents are the worlds largest concentration of Leopards, elephants, sloth bears, sambars, jackals, spotted deers, peacocks and crocadiles. The best times considered to visit Yala would be between Febuary and July as the water levels are lower and this promts the wild life to emerge into the open."
+        },
+        
+        "images": [
+          {
+            "src": "Images/yala12.jpg"
+          },
+          {
+            "src": "Images/yala-safari-jungle-jeep-drone.jpg"
+          }
+        ]
+      },
+      {
+        "id": "map",
+        "content": {
+          "google_maps": {
+            "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.674038567171!2d80.79975837475597!3d6.809445993188055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3882edb4b78ef%3A0xcebca89153777249!2sHorton%20Plains%20National%20Park!5e0!3m2!1sen!2slk!4v1705333645316!5m2!1sen!2slk",
+            "width": "600",
+            "height": "450",
+            "style": "border:0",
+            "allowfullscreen": "",
+            "loading": "lazy",
+            "referrerpolicy": "no-referrer-when-downgrade"
+          },
+          "image": {
+            "src": "Images/Yala map.jpg"
+          }
+        }
+      },
+      {
+        "id": "gallery",
+        "content": {
+          "heading": "Images",
+          "images": [
+            { "src": "Images/yala2.jpeg" },
+            { "src": "Images/yala3.jpg" },
+            { "src": "Images/yala4.jpg" },
+            { "src": "Images/yala5.jpg" },
+            { "src": "Images/yala6.jpg" },
+            { "src": "Images/yala7.jpg" },
+            { "src": "Images/yala8.webp" },
+            { "src": "Images/yala9.webp" }
+          ]
+        }
+      }
+    ]
+  }
+}
+
+  

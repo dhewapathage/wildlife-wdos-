@@ -1,0 +1,62 @@
+{
+    "sections": [
+      {
+        "id": "introdowc",
+        "content": {
+          "image": "Images/DOWC pic.jpeg",
+          "heading": "Sri Lankan Wildlife Conservation",
+          "paragraph": [
+            "Welcome to the official website of the Department of Wildlife Conservation in Sri Lanka, established in 1949 to safeguard the island's rich and diverse biodiversity. Our mission is rooted in the protection of national parks, sanctuaries, and wildlife reserves, ensuring the preservation of our natural heritage. As you explore this platform, discover our commitment to active conservation efforts, habitat management, and wildlife research—all aimed at fostering the sustainable coexistence of wildlife and humans in Sri Lanka"
+            
+          ]
+          ,"paragraph1": [
+            "Our commitment to upholding a careful balance between the demands of our distinctive species and the populations that coexist with these enchanted environments is the fundamental component of our goals. We work to build habitats that enable the prospering of varied species through comprehensive habitat management practices, fostering a healthy interaction between Sri Lanka's abundant wildlife and its people."
+            
+
+          ]
+          ,"paragraph2": [
+            "Discover the ongoing endeavors of the Department of Wildlife Conservation, as we work tirelessly to ensure the long-term preservation of Sri Lanka's ecological treasures and contribute to a future where wildlife and human communities coexist in harmony"
+            
+
+          ]
+        }
+      },
+      {
+        "heading": "Protected Areas",
+        "id": "gallerydowc",
+        "protected_areas": [
+          {
+            "image": "Images/area1.jpg",
+            "name": "Haggala Strict Natural Reserve"
+          },
+          {
+            "image": "Images/area2.jpg",
+            "name": "Yala Strict Natural Reserve"
+          },
+          {
+            "image": "Images/hp12.webp",
+            "name": "Horton Plains"
+          },
+          {
+            "image": "Images/3-1.webp",
+            "name": "Adam's Bridge Marine National Park"
+          },
+          {
+            "image": "Images/minneriya.jpg",
+            "name": "Minneriya Jungle Corridor"
+          }
+        ]
+      },
+      {
+        "iframe_src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.9457472898266!2d79.91723077460573!3d6.897092693102119!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae250aa85489b1f%3A0xd8773339b6b43dbb!2sDepartment%20of%20Wildlife%20Conservation!5e0!3m2!1sen!2slk!4v1705429954392!5m2!1sen!2slk",
+        "iframe_width": "600",
+        "iframe_height": "450",
+        "iframe_style": "border:0;",
+        "iframe_allowfullscreen": "",
+        "iframe_loading": "lazy",
+        "iframe_referrerpolicy": "no-referrer-when-downgrade",
+        "iframe_class": "dowcmap"
+      }
+    ]
+  }
+  

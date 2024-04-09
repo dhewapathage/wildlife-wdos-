@@ -1,0 +1,102 @@
+{
+  "body": {
+    "class": "leopard5",
+    "sections": [
+      {
+        "content": {
+          "h1": "Sri Lankan Leopards"
+        }
+      },
+      {
+        "content": {
+          "h1": "PLACES IN SRI LANKA TO SEE LEOPARDS",
+          "p": "Without a doubt, Sri Lanka is the leopard's homeland. There isn't a predator like that in Sri Lanka to rival the leopard. While there have been reports of the odd altercation between a sloth bear and a wild boar, the leopards are mostly left alone to hunt and feed. They can be found in pockets of woodland, tea estates, grasslands, residential gardens, and plantations of pine and eucalyptus in the central hills of Sri Lanka. These are some places where leopards are found in Sri Lanka."
+        }
+      },
+      {
+        "content": {
+          "img": {
+            "src": "Images/leopard pic.webp",
+            "class": "yala-pic"
+          },
+          "sub": {
+            "h1": "Yala National Park",
+            "p": "Yala national park is truly the land of the leopard. One of the most iconic sights in Yala National Park is seeing a beautiful cat strolling over the wide plains or perched on a rocky ledge. In Yala, a number of well-known leopards have become popular symbols. In Yala National Park, the ideal time to see leopards is during the dry season. When rainfall is at its lowest, which occurs from June to September, these secretive critters are more likely to be out and about and like dry weather. Currently, approximately 130 distinct leopards have been discovered as part of an extensive research on the park's leopard population. New individuals are eager to be identified even today, demonstrating the high density of these predators in a very limited region (only 142 square kilometers). The park has a very informative Leopard Centre where tourists may learn more about these predators."
+          }
+        }
+      },
+      {
+        "content": {
+          "img": {
+            "src": "Images/wilpattu leopard.jpg",
+            "class": "yala-pic"
+          },
+          "sub1": {
+            "h1": "Wilpattu National Park",
+            "p": "The largest national park in Sri Lanka, Wilpattu, is situated in the northwest lowlands and was formerly the most well-known spot to observe leopards in the country. Wilpattu has a denser population and a terrain dominated by dark forests, with just a few open areas that are often made up of naturally occurring lakes called Villus. These lepoards are tough to spot in the deep, dark forests, but when they do appear on the roadways, they are amazing to observe. The lakes with wide sand beaches are among the most breathtaking places to see these amazing meat-eating creatures"
+          }
+        }
+      },
+      {
+        "content": {
+          "img": {
+            "src": "Images/hp leopard.jpg",
+            "class": "yala-pic"
+          },
+          "sub2": {
+            "h1": "Horton Plains",
+            "p": "Nestled in the central highlands of Sri Lanka, Horton Plains National Park is a unique ecological gem known for its montane grasslands, cloud forests, and remarkable biodiversity. While renowned for the World's End viewpoint with its stunning 880-meter cliff drop, the park also hosts a population of elusive leopards. The leopards, although present, navigate the dense vegetation and rugged terrain with stealth, making sightings a thrilling yet challenging experience. The park's high-altitude environment, coupled with its scenic trails, offers a distinctive backdrop for wildlife enthusiasts. Visitors can embark on well-marked hiking paths, potentially catching glimpses of leopards against the backdrop of rolling hills and waterfalls. As Horton Plains National Park stands as a testament to Sri Lanka's natural beauty and ecological diversity, encountering leopards in this pristine setting adds an extra layer of excitement to the overall wildlife experience."
+          }
+        }
+      },
+      {
+        "h1": "Threats",
+        "p": "Leopards in Sri Lanka face severe threats including habitat loss due to urbanization and agriculture, human-wildlife conflict arising from livestock predation, and poaching driven by illegal wildlife trade. Inadequate conservation measures compound these challenges, emphasizing the need for urgent, coordinated efforts in habitat preservation, community engagement, and law enforcement to ensure the survival of these iconic predators."
+      },
+      {
+        "content": {
+          "img": {
+            "src": "Images/Human-Wildlife Conflict pic.jpg",
+            "alt": ""
+          },
+          "sub3": {
+            "h2": "Human-Wildlife Conflict",
+            "p": 
+              "consequences :Leopards may feed on cattle, which could lead local populations to carry out reprisals.",
+            "p1": "Mitigation : putting into practise methods to reduce conflict between humans and animals, such as safe enclosures for livestock, plans to compensate livestock losses, and community education initiatives to promote harmony with nature"
+            
+          }
+        }
+      },
+      {
+        "content": {
+          "img": {
+            "src": "Images/Habitat Loss and Fragmentation pic.jpg",
+            "alt": ""
+          },
+          "sub4": {
+            "h2": "Habitat Loss and Fragmentation",
+            "p": "Consequence: Reductions in the availability of prey, heightened conflict between humans and animals, and restricted migration for leopards are the results of habitat destruction and fragmentation.",
+            "p1": "Mitigation: The maintenance and restoration of natural ecosystems is a common goal of conservation initiatives. A suitable habitat for leopards may be maintained by the establishment of protected areas and wildlife corridors."
+            
+          }
+        }
+      },
+      {
+        "content": {
+          "img": {
+            "src": "Images/leopard-accident.webp",
+            "alt": ""
+          },
+          "sub5": {
+            "h2": "Road Accidents",
+            "p": 
+              "Consequence: Increased road infrastructure can lead to leopard fatalities due to collisions with vehicles.",
+            "p1": "Mitigation: Implementing measures like speed limits in leopard habitats, constructing wildlife crossings, and raising awareness among drivers about the presence of wildlife on roads."
+            
+          }
+        }
+      }
+    ]
+  }
+}

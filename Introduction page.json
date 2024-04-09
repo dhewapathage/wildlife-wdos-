@@ -1,0 +1,80 @@
+{
+  "sections": [
+    {
+      "id": "intro-1",
+      "content": {
+        "header": "Sri Lankan Wildlife Introduction"
+      }
+    },
+    {
+      "id": "intro-2",
+      "content": {
+        "text": "Welcome to our digital gateway to the enchanting forests of Sri Lanka! Immerse yourself in the breathtaking landscapes and rich biodiversity of over 25 forest reserves and national parks that grace this tropical island. From the iconic Yala and Wilpattu to the pristine Sinharaja Rainforest, these diverse ecosystems are a testament to the country's commitment to preserving its natural heritage. Our website invites you to explore the wonders of Sri Lanka's forests, where each click unveils a new chapter in the story of flourishing ecosystems, unique wildlife, and the delicate balance of nature. Join us on this virtual journey, and let the lush canopies and vibrant landscapes of Sri Lanka's forests captivate your senses. Discover the extraordinary beauty and ecological significance that these forests bring to our island, and delve into the myriad wonders they hold."
+      }
+    },
+    {
+      "id": "forest",
+      "content": {
+        "forests": [
+          {
+            "name": "Sinharaja Forrest",
+            
+                          "description": {
+                            "intro_text": "Welcome to the captivating world of Sinharaja Forest Reserve, a UNESCO World Heritage Site nestled in the heart of Sri Lanka's southwestern lowland rainforest. Covering over 8,800 hectares, Sinharaja is a biodiversity hotspot that beckons you to explore its virtual landscapes and discover the unique beauty of its flora and fauna. Towering Dipterocarp trees, vibrant orchids, and a rich tapestry of ferns create an immersive haven for plant enthusiasts, while elusive creatures like the Leopard and the melodious Sri Lankan Blue Magpie add to the enchantment. Sinharaja's significance goes beyond its visual allure; it stands as a vital conservation area, harboring a wealth of endemic species and serving as a beacon for ongoing initiatives dedicated to preserving its ecological integrity."
+                            
+                          },
+                          "description1": {
+                            "intro_text": "As a research hub, Sinharaja contributes significantly to our understanding of tropical rainforest ecosystems. The forest's ecological intricacies and the collaborative efforts in place to sustain its delicate balance are highlighted, offering a glimpse into the scientific endeavors shaping conservation strategies. Sinharaja is not just a place of beauty; it is a classroom where nature enthusiasts, researchers, and conservationists can delve into the complexities of preserving our planet's rich biodiversity."
+                          },
+                          "description2": {
+                            "intro_text": "For those yearning to experience Sinharaja firsthand, our virtual platform provides insights into well-maintained trails and expert-guided tours. Whether you're a researcher eager to explore ecological wonders or a nature enthusiast seeking an immersive journey, Sinharaja Forest Reserve's digital embrace promises an unforgettable adventure into the heart of a thriving tropical rainforest ecosystem. Join us in celebrating the wonders of Sinharaja, where nature's beauty seamlessly meets the digital realm."
+                          },
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.8991566477052!2d80.45745167460097!3d6.406990793583749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3e76bd109d45f%3A0x8c0ef1010649701b!2sSinharaja%20Forest%20Reserve!5e0!3m2!1sen!2slk!4v1705383474945!5m2!1sen!2slk",
+            "images": [
+              "Images/sinharaja1.jpg",
+              "Images/sinharaja2.jpg"
+            ]
+          },
+          {
+            "name": "Hortan Plains",
+            
+            "description3": {
+              "intro_text": "Nestled in the heart of Sri Lanka's central highlands, Horton Plains National Park stands as a testament to the island's rich biodiversity and spectacular natural landscapes. Covering an expansive 3,169 hectares, this protected area offers a diverse tapestry of ecosystems, from rolling montane grasslands to mist-covered cloud forests. The park's unique topography provides a haven for endemic species, including the majestic purple-faced langur and the vibrant Rhododendron arboreum, captivating the hearts of nature enthusiasts and conservationists alike."
+              
+            },
+            "description5": {
+              "intro_text": "At the heart of Horton Plains lies the renowned World's End  a breathtaking precipice that plunges 880 meters, revealing a panoramic view of tea plantations and the lowlands below. The sheer magnitude of this escarpment, combined with the ever-shifting mists, creates a mesmerizing experience for those venturing to the edge. Additionally, the ethereal beauty of Baker's Falls adds to the allure of the park, with its cascading waters providing a tranquil contrast to the dramatic landscapes."
+            },
+            "description6": {
+              "intro_text": "Adventure beckons on the trails that wind through Horton Plains, leading visitors to Mini World's End and Chimney Pool, each contributing to the park's mystique. Whether trekking through the undulating grasslands or navigating the dense cloud forests, every step in Horton Plains is a journey into the untamed beauty of nature. For those seeking an immersive encounter with Sri Lanka's natural wonders, Horton Plains National Park offers an unforgettable adventure filled with panoramic vistas, unique flora and fauna, and the sheer thrill of exploring one of the island's UNESCO World Heritage sites."
+            },
+            "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.674038567171!2d80.79975837475597!3d6.809445993188055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3882edb4b78ef%3A0xcebca89153777249!2sHorton%20Plains%20National%20Park!5e0!3m2!1sen!2slk!4v1705334499594!5m2!1sen!2slk",
+            "images": [
+              "Images/Hortain plains 1.jpg",
+              "Images/Horton-Plains-National-park.webp"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "table2",
+      "content": {
+        "table": {
+          "rows": [
+            {
+              "Forest": "Sinharaja",
+              "Endemic Species": "Sri Lanka hanging parrot\nSri Lanka blue magpie\nPurple-faced langur"
+            },
+            {
+              "Forest": "Hortain Plains",
+              "Endemic Species": "rhino horn lizard\nStriped- necked mongoose\ngiant squirrels"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
+
+  

@@ -7,7 +7,7 @@
 <body>
   <section id="intro5">
     <div class="intro5-text">
-      <h1>Sri Lankan Animals</h1>
+      <h1 id="intro5-text"></h1>
     </div>
   </section>
   <nav class="navbar">
@@ -18,13 +18,14 @@
       <li><a href="DOWC.html"> Department of Wildlife </a></li>
       <li><a href="srilankan animals.html"> Sri Lankan Animals </a></li>
       <li><a href="leopard.html"> Sri Lankan Leopards  </a></li>
+      <li><a href="login.html">Login</a></li>
     </ul>
     <img src="Images/hamburger-4-svgrepo-com.svg" class="menu-btn" />
   </nav>
 
   <section id="asd">
-    <p class="asd-1">
-      Sri Lankan wildlife, captivating nature enthusiasts worldwide. The island
+    <p id="asd-1" class="asd-1">
+      <!-- Sri Lankan wildlife, captivating nature enthusiasts worldwide. The island
       is home to majestic elephants, with over 7,500 thriving in national parks.
       Graceful deer roam freely, adding to the allure of these natural havens.
       The elusive leopard, a symbol of the island's untamed wilderness, prowls
@@ -33,18 +34,18 @@
       along the southern coast. This harmonious ecosystem, supporting a diverse
       population of flora and fauna, underscores Sri Lanka's commitment to
       conservation and sustainable coexistence. Explore the wonders of Sri
-      Lankan wildlife, where nature's symphony plays out in every corner.
+      Lankan wildlife, where nature's symphony plays out in every corner. -->
     </p>
   </section>
   <section id="iconic-animals">
-    <h1>Distinctive Wildlife of Sri Lanka</h1>
+    <h1 id="iconic-animals1"></h1>
     <div class="subtopic-1">
       <div class="subtopic-1-text">
-        <img src="Images/1234.jpeg" />
+        <img id="subtopic-1-text1" src="" />
         <div class="subtopic-1-text2">
-          <h2>Purple-faced Langur (Semnopithecus vetulus)</h2>
-          <p>
-            The Purple-faced Langur (Semnopithecus vetulus) is a captivating
+          <h2 id="subtopic-1-text2"></h2>
+          <p id="subtopic-1-text23">
+            <!-- The Purple-faced Langur (Semnopithecus vetulus) is a captivating
             primate species exclusively found in Sri Lanka, showcasing
             distinctive features that set it apart in the realm of wildlife. Its
             most notable characteristic is the striking purple hue adorning its
@@ -60,39 +61,35 @@
             threats such as habitat loss, human-wildlife conflict, and hunting.
             Conservation initiatives and protected areas strive to mitigate
             these challenges and preserve the Purple-faced Langur's significance
-            within Sri Lanka's rich biodiversity.
+            within Sri Lanka's rich biodiversity. -->
           </p>
         </div>
       </div>
     </div>
     <div class="subtopic-1 small">
       <div class="subtopic-1-text inverse">
-        <img src="Images/RED SLENDER LORIS.jpg" />
+        <img id="subtopic-1-text inverse" src="" />
         <div class="subtopic-1-text2">
-          <h2>RED SLENDER LORIS</h2>
-          <p>
-            Native to Sri Lanka's jungles, the red slender loris (Loris
+          <h2 id="subtopic-1-text24"></h2>
+          <p id="subtopic-1-text25">
+            <!-- Native to Sri Lanka's jungles, the red slender loris (Loris
             tardigradus) is a tiny, nocturnal strepsirrhine monkey. This species
             is ranked No. 6 out of the 10 focus species and No. 22 out of the
             100 EDGE mammal species that are thought to be the most globally
             endangered and evolutionary different worldwide. It has been
             determined that L. t. tardigradus and L. t. nycticeboides are the
-            two subspecies.
+            two subspecies. -->
           </p>
         </div>
       </div>
     </div>
     <div class="subtopic-1 small">
       <div class="subtopic-1-text">
-        <img src="Images/Saltwater Crocodile (Crocodylus porosus).jpg" />
+        <img id="subtopic-1-text12" src="" />
         <div class="subtopic-1-text2">
-          <h2>Saltwater Crocodile (Crocodylus porosus)</h2>
-          <p>
-            The Saltwater Crocodile is the largest living crocodile species and
-            can be found in estuaries, mangroves, and coastal areas in Sri
-            Lanka. These powerful reptiles are known for their ability to
-            inhabit both saltwater and freshwater environments and are
-            formidable predators.
+          <h2 id="subtopic-1-text26"></h2>
+          <p id="subtopic-1-text27">
+            
           </p>
         </div>
       </div>
@@ -100,7 +97,7 @@
   </section>
   <section id="link">
     <div class="linkhead">
-      <p>
+      <p id="linkhead1">
         Explore the diverse wonders of Sri Lanka's wildlife by delving into the
         enchanting realms of Yala and Wilpattu forests. Embark on an immersive
         journey through the dense foliage of Yala National Park, where the
@@ -121,7 +118,23 @@
         ecosystems
       </p>
     </div>
+    <script src="srilankan animals.js"></script>
   </section>
+  <footer class="newsletterlk">
+    <p>Subscribe to our newsletter for updates:</p>
+    <form class="newsletter-form" id="newsletterForm">
+      <input
+        class="newsletter-input"
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Your email address"
+        required
+      />
+      <button class="newsletter-button" type="submit">Subscribe</button>
+    </form>
+  </footer>
+ </div>
   <section id="footer-section">
     <footer class="footer">
       <div class="row">
@@ -177,5 +190,34 @@
     </section>
   </section>
 </body>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const newsletterForm = document.getElementById("newsletterForm");
+
+    newsletterForm.addEventListener("submit", function (event) {
+      event.preventDefault(); // Prevent form submission
+
+      const email = document.getElementById("email").value;
+
+      // Save email to localStorage
+      saveEmailToLocalStorage(email);
+
+      // Clear input field
+      document.getElementById("email").value = "";
+
+      alert("Thank you for subscribing to our newsletter!");
+    });
+    function saveEmailToLocalStorage(email) {
+      let subscriptions =
+        JSON.parse(localStorage.getItem("subscriptions")) || [];
+      subscriptions.push(email);
+      localStorage.setItem(
+        "subscriptions",
+        JSON.stringify(subscriptions)
+      );
+    }
+  });
+</script>
 
 <!-- (No date) Endemic animals of sri lanka. Available at: https://animalia.bio/endemic-lists/country/endemic-animals-of-sri-lanka (Accessed: 19 January 2024).  -->

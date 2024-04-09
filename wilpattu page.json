@@ -1,0 +1,69 @@
+{
+  "main_content": {
+    "image": {
+      "src": "Images/wilpattu.jpg",
+      "class": "main-img"
+    },
+    "header": {
+      "text": "Welcome to Wilpattu National Park",
+      "class": "header1"
+    },
+    "sections": [
+      {
+        "id": "intro3",
+        "content1": {
+          "intro_text": "Discover the most elusive fauna in Sri Lanka amid the immense solitude of Wilpattu National Park. This is Sri Lanka's largest and oldest wildlife reserve, taking up a large tract of land that borders the ancient ruins of the Cultural Triangle, the Northern Province, and the copper-sand beaches of the country's west coast. The park supports an amazing bird life, Asian Elephants, Sri Lankan Leopards, and Sri Lankan Sloth Bears, among many other indigenous species."
+          
+        },
+        "content2": {
+          "intro_text": "Wilpattu National park has a ranging area of over 131,000 hectares and it is considered Sri lankas Largest and one of its oldest protected wild life areas, the park consists of 5 blocks which were declared between 1938 and 1973 which was under the Fauna and Flora Protection Ordinance, this is currently managed under the Department of Wild life conservation. Wilpattu park covers accross the Anuradhapura and Puttalam Districts also bordering Mannar and Vavuniya. This area is also one of the most important elephant habitats in Sri Lanka, visitors also have the chance to get a glimps of the elusive Sri Lankan Leopard and Sloth bear in Wilpattu National Park. The landscape consists of dry zone forests along with thorny scrubs, which is also paired with extensive open plains, sand dunes, with unique Villu wetlands. Wilpattu also has bare reddish cliffs which rise from the narrow beaches of the Portugal Bay and Dutch Bat which is also a striking feature of its landscape."
+        },
+        
+          
+
+        
+        "images": [
+          {
+            "src": "Images/wilpattu1.jpg"
+          },
+          {
+            "src": "Images/wilpattu2.jpg"
+          }
+        ]
+      },
+      {
+        "id": "map",
+        "content": {
+          "google_maps": {
+            "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d505153.2016067915!2d79.70707710460938!3d8.449741947475994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3afdac7787e4bc27%3A0xcdd9a0715dad187c!2sWilpattu%20National%20Park!5e0!3m2!1sen!2slk!4v1705424686506!5m2!1sen!2slk",
+            "width": "400",
+            "height": "300",
+            "style": "border: 0",
+            "allowfullscreen": "",
+            "loading": "lazy",
+            "referrerpolicy": "no-referrer-when-downgrade"
+          },
+          "image": {
+            "src": "Images/wilpattu map.jpg"
+          }
+        }
+      },
+      {
+        "id": "gallery",
+        "content": {
+          "heading": "Images",
+          "images": [
+            { "src": "Images/wilpattu3.jpg" },
+            { "src": "Images/wilpattu4.jpg" },
+            { "src": "Images/wilpattu5.jpg" },
+            { "src": "Images/wilpattu6.jpg" },
+            { "src": "Images/wilpattu7.jpg" },
+            { "src": "Images/wilpattu8.jpg" },
+            { "src": "Images/wilpattu9.jpg" },
+            { "src": "Images/wilpatto10.jpg" }
+          ]
+        }
+      }
+    ]
+  }
+}
